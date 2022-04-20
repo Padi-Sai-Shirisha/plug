@@ -11,14 +11,14 @@ import { get, getDatabase, ref, set, child } from "firebase/database";
 const googleProvider = new GoogleAuthProvider();
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAmOmqhgbzwyvP0TY5ziwXHjFanwztNxZo",
-  authDomain: "plug-18646.firebaseapp.com",
-  projectId: "plug-18646",
-  storageBucket: "plug-18646.appspot.com",
-  messagingSenderId: "838722385629",
-  appId: "1:838722385629:web:d5e935158dd60d69d88d34",
-  measurementId: "G-55ZX14CWBH",
+  apiKey: "AIzaSyCLa2oB_iXLypaT_9-Qacj4KtXLGWjlICs",
+  authDomain: "plugapp-e906c.firebaseapp.com",
+  projectId: "plugapp-e906c",
+  storageBucket: "plugapp-e906c.appspot.com",
+  messagingSenderId: "512859423386",
+  appId: "1:512859423386:web:f6b6878fe2e375bf215523"
 };
+
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
